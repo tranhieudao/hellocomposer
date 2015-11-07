@@ -1,0 +1,19 @@
+{
+    "name": "DaoTH/HelloComposer",
+    "description": "DaoTH Hello Composer",
+    "authors": [
+        {
+            "name": "Tran Hieu Dao",
+            "email": "tran.hieu.dao@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.3.0"
+    },
+	"autoload": {
+        "psr-0": {
+            "DaoTH\\HelloComposer\\": "src/"
+        }
+    }
+}
